@@ -1,0 +1,133 @@
+
+#arr{
+    width:20vw;
+    height: 20vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width:25vw;
+    height:50vh;
+   /* margin-left: 50vh; */
+   border-radius: 5px;
+
+
+}
+#content1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: -15vw;
+
+}
+.bott{
+    width:150vw;
+    height:50vh;
+    /* background-color: brown; */
+    margin: 10px; 
+
+   
+ } 
+#content1 .bott{
+    width:38vw;
+    height: 50vh;
+    /* background-color: red;  */
+    margin-top: 3rem;
+     float: left; 
+    padding: 20px;
+} 
+.con{
+    width:30vw;
+    height:50vh;
+} 
+#content1 .con{
+    width:25vw;
+    height: 23vh;
+    border-radius: 10px;
+    background-color: gray;
+    
+    
+}
+.con h2{
+    margin-left: 1vw;
+}
+.right{
+    width: 100px;
+    height: 20px;
+    background-color:white;
+    color:black;
+    float: right;
+}
+#bott1{
+    width: 90%;
+    height: 50vh;
+    /* padding: 20px; */
+    /* background-color: white; */
+}
+#bott1 .bott{
+    width:20vw;
+    height: 50vh;
+    /* background-color: red;  */
+    margin-top: 3rem;
+     float: left; 
+    padding: 50px;
+}
+#final{
+    width:100%;
+    height: 700px;
+    /* background-color: red; */
+    margin-top: 300px;
+    text-align: center;
+}
+
+#im{
+    width: auto;
+    height: auto;
+    /* margin-top: 80px; */
+}
+#hr{
+    margin-top: 30vw;
+}
+#contact{
+    width:100%;
+    height: 60vh;
+    /* background-color: red; */
+    /* padding: 70px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 30vw; */
+}
+#social{
+    width:30vw;
+    height: 60vh;
+    /* background-color: aqua; */
+    float: left;
+    line-height: 40px;
+}
+#company{
+    width:12vw;
+    height: 60vh;
+    /* background-color: aqua; */
+    float: left;
+    text-align: center;
+    line-height:3vw;
+}
+#community{
+    width:10vw;
+    height: 60vh;
+    /* background-color: aqua; */
+    float: left;
+    line-height: 5vw;
+}
+#get{
+    width:10vw;
+    height: 60vh;
+    /* background-color: aqua; */
+    float: left;
+    line-height: 5vw;
+}

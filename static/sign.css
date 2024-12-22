@@ -1,0 +1,63 @@
+.contain {
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+    position: relative;
+    top: 5vw;
+    margin-left: 70vh;
+}
+#heading{
+    position: relative;
+    left: 1vw;
+    /* margin-bottom: 20px;
+    padding-left: -20px; */
+}
+#signin_form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-group {
+    margin-bottom: 5vw;
+}
+  
+label {
+    display: block;
+    margin-bottom: 1vw;
+    margin-top:5vw;
+}
+/* #email{
+    margin-top: 50px;
+} */
+
+input {
+    width: 25vw;
+    padding: 10px;
+    border:0.2vw solid gray; 
+    border-radius: 1vw;
+    background-color: black;
+    box-shadow: inset 1px 1px 5px gray;
+    color: white;
+}
+
+
+.or {
+
+    text-align: center;
+    margin-right: 60%;
+  }
+
+.google-btn {
+    width: 20vw;
+    height: 5vh;
+    background-color:black;
+    color: white;
+    /* padding: 10px 20px; */
+    border: 1px solid gray;
+    border-radius: 1vw;
+    text-align: center;
+    margin-left:4vw;
+}
+
+.google-btn img {
+    margin-right:1vw;
+   
+}

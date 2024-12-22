@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    color: white;
+    width:100vw;
+    height:100vh;
+    background-color: black; 
+    overflow-x: hidden; 
+    margin-top: 2vw; 
+}
+nav{
+    /* margin-top: 2vw;  */
+    width: 100vw;
+    height: 10vh;
+    position:sticky;
+    top:0%;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+#sign{
+    background-color: aqua;
+    border-radius: 5px;
+}
+#sub{
+    width:20vw;
+    height: 5vh;
+    float: left;
+}
+#name::before{
+    content:'🦁'
+}
+#sub1{
+    width:70vw;
+    height: 5vh;
+    float: right;
+}
+a{
+    text-decoration: none;
+    padding: 1vw;
+    color: white;
+   
+
+}
+.name{
+    margin-left: 70px;
+}
+#sign{
+    width:2px;
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+
+        {% endblock title %}
+    </title>
+    <link rel="icon" href="{% static 'images/lion.jpg' %}">
+    {% block css %}
+    {% endblock css %}
+    <link rel="stylesheet" href="{% static 'nav.css' %}">
+
+</head>
+<body>
+    
+    <nav>
+        <div id="sub">
+            <a id="name" href="{% url 'myapp:home' %}">Sheryians coding school</a></div>
+        <div id="sub1">
+            <a class="name" href="{% url 'myapp:home' %}">Home</a>
+            <a class="name" href="{% url 'myapp:course' %}"> Course</a>
+            <a class="name" href="{% url 'myapp:bootcamp' %}">Bootcamp(Kodr)</a>
+            <a class="name" href="{% url 'myapp:request' %}">Request callback</a>
+            <a class="name" href="{% url 'myapp:sign' %}" id="sign">signIn</a>
+        </div>
+    </nav>
+    {% block data %}
+
+    {% endblock data %}
+    
+</body>
+</html>
